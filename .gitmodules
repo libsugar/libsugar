@@ -1,4 +1,4 @@
 [submodule "googletest"]
     path = googletest
-    url = git@github.com:libsugar/googletest.git
+    url = https://github.com/libsugar/googletest
 	
