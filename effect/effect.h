@@ -1,6 +1,9 @@
+#ifndef SUGAR_EFFECT_H
+#define SUGAR_EFFECT_H
 #pragma once
 
 #include <utility>
+#include <concepts>
 
 namespace sugar {
 
@@ -29,3 +32,5 @@ namespace sugar {
 
     [[maybe_unused]] Also also;
 }
+
+#endif //SUGAR_EFFECT_H

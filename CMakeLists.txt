@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.23)
-project(LibSugar)
-
-set(CMAKE_C_COMPILER clang)
-set(CMAKE_CXX_COMPILER clang++)
+project(sugar)
 
 set(CMAKE_CXX_STANDARD 20)
+
+add_subdirectory(effect)
+add_subdirectory(result)
+
+add_subdirectory(tests/googletest)
+add_subdirectory(tests)
